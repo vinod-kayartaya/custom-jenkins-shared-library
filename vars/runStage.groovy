@@ -1,5 +1,3 @@
 def call(String stageName) {
-    steps {
-        echo "running the stage \"${stageName}\"...."
-    }
+    echo "running the stage \"${stageName}\"...."
 }
